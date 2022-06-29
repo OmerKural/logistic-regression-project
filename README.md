@@ -33,10 +33,16 @@ sb.pairplot(data=ad_data, hue="Clicked on Ad")
 ```
 ![pairplot](./Images/output1.png)
 
-As you can see, the data clearly corrolates with eachother. It divides clearly into two sections as seen on the plot. This is perfect for a logistic regression project.
+As you can see, the data clearly corrolates with eachother. It divides clearly into two sections as seen on the plot. This is perfect for a logistic regression project. Also we can see that the "Male" column (Sex) doesn't mean anything for the data. The person being female or male (Male 0, Male 1) doesn't affect the person to click on the ad. So we can discard that column with all the other string based columns too.
 
 ### 3 - Cleaning the data
 As this is a logistic regression project, we either have to get rid of the non-numerical values or we need to convert them to numerical values. The non-numerical values in this data represented no value in the accuracy of the project so I deleted the data with the `pandas.DataFrame.drop()` function. Now we are left with a clan dataset.
+
+### 4 - Finalising the Project
+After writing the actual logistical regression code, I tested it with a classification report.
+
+![report](./Images/report1.png)
+The report shows that the project is a success. We can see that by looking at the values above. +0.9 is a great value for a machine learning project.
 
 ## Technologies
 - Python 3.9
