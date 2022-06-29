@@ -41,7 +41,7 @@ As this is a logistic regression project, we either have to get rid of the non-n
 ### 4 - Finalising the Project
 After writing the actual logistical regression code, I tested it with a classification report.
 
-![report](./Images/report1.png)
+![report](./Images/classification_report1.png)
 The report shows that the project is a success. We can see that by looking at the values above. +0.9 is a great value for a machine learning project.
 
 ## Technologies
