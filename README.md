@@ -14,12 +14,14 @@ ad_data = pd.read_csv('advertising.csv')
 ad_data.head
 ```
 ![head](./Images/head1.png)
+
 As it is seen on the image above, there are both numerical values and string values. String values are a problem for logistic regression.
 
 ```py
 ad_data.info()
 ```
 ![info](./Images/info1.png)
+
 We can also see that there are no missing values in the data to deal with. Now we can proceed into the next step which is visualising the data.
 
 ### 2 - Visualising the data for analysis
@@ -42,6 +44,7 @@ As this is a logistic regression project, we either have to get rid of the non-n
 After writing the actual logistical regression code, I tested it with a classification report.
 
 ![report](./Images/classification_report1.png)
+
 The report shows that the project is a success. We can see that by looking at the values above. +0.9 is a great value for a machine learning project.
 
 ## Technologies
