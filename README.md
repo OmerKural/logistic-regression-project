@@ -8,6 +8,7 @@ First I plotted numerical data against eachother with a pair plot. I also added 
 
 ```py
 import seaborn as sb
-sb.pairplot(data=ad_data, hue="Clicked on Ad")```
+sb.pairplot(data=ad_data, hue="Clicked on Ad")
+```
 ![pairplot](./Images/output1.png)
 
