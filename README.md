@@ -6,7 +6,7 @@ Coded in Python by Ömer Kural
 ## The Making of The Project
 
 ### 1 - Analysing the data
-Before starting to coded the actual project I had to analyse the `advertising.csv` data with the `pandas` library.
+Before starting to code the actual project I had to analyse the `advertising.csv` data with the `pandas` library.
 
 ```py
 import pandas as pd
